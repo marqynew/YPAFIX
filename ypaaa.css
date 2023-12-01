@@ -1,0 +1,49 @@
+.swiper-slide {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .blue-button {
+    background-color:  #3498db; 
+    opacity: 80%;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .blue2-button {
+    background-color:  #3498db; 
+    opacity: 80%;
+    color: white;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blue3-button {
+      background-color:  #3498db; 
+      opacity: 80%;
+      color: white;
+      padding: 11px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .grey-button {
+        background-color:  #3498db; 
+        opacity: 80%;
+        color: white;
+        padding: 11px 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  
+  

@@ -1,0 +1,134 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: "IBM Plex Sans", Serif;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+a {
+  color: #005eeb;
+}
+
+.teamWrapper {
+  margin-top: 50px;
+}
+.container {
+  --container: 1160px;
+  max-width: var(--container);
+  margin: auto;
+}
+.teamGrid {
+  display: grid;
+  grid-template-columns: 32.33% 32.33% 32.33%;
+  column-gap: 1.5%;
+  margin-top: 100px;
+}
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -160px;
+  text-align: center;
+  margin-top: 1;
+}
+.teamcolinner {
+  position: relative;
+}
+
+.avatar > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  border: 1px solid rgb(170 170 173/ 1);
+  box-shadow: 0px 3px 3px rgb(170 170 173 / 0.5);
+  margin-left: 20px;
+  
+}
+.teamcolinner {
+  position: relative;
+  min-height: 100px;
+  background: default;
+  z-index: 9;
+}
+.teamcol {
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 35px;
+  position: relative;
+  transition: transform 1s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(170 170 173/ 1);
+}
+
+.teamcol:hover {
+  transform: translateY(-30px);
+  box-shadow: 0px 3px 10px 3px rgb(170 170 173 / 0.5);
+  transition: transform 1s ease-in-out;
+}
+.teamcol:before {
+  content: "";
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border-top-right-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:after {
+  content: "";
+  width: 96%;
+  height: 97%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  border-bottom-left-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+.teamcol:hover::before,
+.teamcol:hover::after {
+  width: 100%;
+  transition: width 1s ease-in-out;
+}
+.member-name {
+  margin-top: 80px;
+}
+
+.member-info {
+  padding: 10px 20px;
+}
+.social-listing {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.social-listing > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #f4f5f7;
+  border-radius: 50%;
+  margin: 5px;
+}
+.teamGrid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; /* Empat kolom sejajar */
+  column-gap: 1.5%;
+  margin-top: 100px;
+}
+
+.member-mail p {
+  font-family: "Times New Roman", serif;
+  font-size: 13px;
+  font-weight: bold;
+}
